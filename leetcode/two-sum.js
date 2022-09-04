@@ -36,7 +36,7 @@ var twoSum = function (nums, target) {
   }
 };
 
-// optimal Time: solution O(n) Mem: O(n)
+// optimal solution Time: O(n) Mem: O(n)
 var twoSum = function (nums, target) {
   const map = new Map();
   for (let i = 0; i < nums.length; i++) {

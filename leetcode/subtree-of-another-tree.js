@@ -30,6 +30,8 @@
  * @param {TreeNode} subRoot
  * @return {boolean}
  */
+
+// Time: O(n^2) Space: O(1)
 var isSubtree = function (root, subRoot) {
   // given two nodes are they the same?
   const isSame = (n1, n2) => {

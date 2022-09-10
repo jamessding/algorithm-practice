@@ -35,6 +35,7 @@
 //   p != q
 // p and q will exist in the BST.
 
+// Time: O(logN) Space: O(1)
 var lowestCommonAncestor = function (root, p, q) {
   while (root !== null) {
     if (root.val < p.val && root.val < q.val) {

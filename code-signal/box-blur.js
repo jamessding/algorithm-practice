@@ -44,6 +44,7 @@
 
 // A blurred image represented as integers, obtained through the process in the description.
 
+// Time: O(n^4) Space: O(n^2)
 function solution(image) {
   const imageArray = [];
   for (let y = 0; y < image.length - 2; y++) {

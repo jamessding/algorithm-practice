@@ -13,6 +13,7 @@
 // [2, 1, 1],
 // [1, 1, 1]]
 
+// Time: O(n^2) Space: O(n^2)
 function solution(matrix) {
   const board = [];
   for (let y = 0; y < matrix.length; y++) {

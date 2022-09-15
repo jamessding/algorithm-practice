@@ -26,6 +26,7 @@
  * @return {number}
  */
 
+// Time: O(n) Space: O(1)
 var hammingWeight = function (n) {
   let sum = 0;
   while (n !== 0) {
